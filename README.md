@@ -19,3 +19,6 @@ work outputs and one obtained by counting the number of instances.
 Experimental results show that our counting network outperforms
 conventional MIL methods on four datasets. Ablation studies fur
 ther confirm the counting network superiority.
+
+---
+Requirement
