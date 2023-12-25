@@ -20,3 +20,10 @@ Experimental results show that our counting network outperforms
 conventional MIL methods on four datasets. Ablation studies fur
 ther confirm the counting network superiority.
 
+## Requirement
+To set up their environment, please run:  
+(we recommend to use [Anaconda](https://www.anaconda.com/) for installation.)
+```
+conda env create -n LML -f LML.yml
+conda activate LML
+```
