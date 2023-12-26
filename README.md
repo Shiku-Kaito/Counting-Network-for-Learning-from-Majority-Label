@@ -49,3 +49,7 @@ If you find this repository helpful, please consider citing:
 ```
 Inproceeedings
 ```
+
+$ Author
+Shiku Kaito
+・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
