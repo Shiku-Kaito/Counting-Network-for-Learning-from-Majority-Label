@@ -51,5 +51,5 @@ Inproceeedings
 ```
 
 # Author
-@ Shiku Kaito  
+@octocat Shiku Kaito  
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
