@@ -28,13 +28,13 @@ conda env create -n LML -f LML.yml
 conda activate LML
 ```
 
-#Dataset
+# Dataset
 ou can create dataset by running following code. Dataset will be saved in ./data directory.
 ```
 python ./make_bag/crossvali_make_dataset_10class_uniform.py
 ```
 
-#Training & Test
+# Training & Test
 After creating your python environment and Dataset which can be made by following above command, you can run Counting-Network code.
 If you want to train the network, please run following command. 5 fold cross-validation trainning is implemented.
 ```
