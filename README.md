@@ -27,3 +27,10 @@ To set up their environment, please run:
 conda env create -n LML -f LML.yml
 conda activate LML
 ```
+
+#Dataset
+ou can create dataset by running following code. Dataset will be saved in ./data directory.
+```
+python ./make_bag/crossvali_make_dataset_10class_uniform.py
+```
+
