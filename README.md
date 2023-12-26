@@ -34,3 +34,13 @@ ou can create dataset by running following code. Dataset will be saved in ./data
 python ./make_bag/crossvali_make_dataset_10class_uniform.py
 ```
 
+#Training & Test
+After creating your python environment and Dataset which can be made by following above command, you can run Counting-Network code.
+If you want to train the network, please run following command. 5 fold cross-validation trainning is implemented.
+```
+python ./main.py --module 'Count' --dataset='cifar10' --classes=10 --majority_size "various" --output_path './result/' --is_evaluation 0
+```
+If you want to evaluation the network, please run following command. 5 fold cross-validation test is implemented.
+```
+python ./main.py --module 'Count' --dataset='cifar10' --classes=10 --majority_size "various" --output_path './result/' --is_evaluation 1
+```
