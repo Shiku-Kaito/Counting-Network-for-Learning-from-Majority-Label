@@ -44,3 +44,8 @@ If you want to evaluation the network, please run following command. 5 fold cros
 ```
 python ./main.py --module 'Count' --dataset='cifar10' --classes=10 --majority_size "various" --output_path './result/' --is_evaluation 1
 ```
+# Citation
+If you find this repository helpful, please consider citing:
+```
+Inproceeedings
+```
