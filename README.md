@@ -34,7 +34,16 @@ python ./main.py --module 'Count' --dataset='cifar10' --classes=10 --majority_si
 # Citation
 If you find this repository helpful, please consider citing:
 ```
-Inproceeedings
+@INPROCEEDINGS{10448425,
+  author={Shiku, Kaito and Matsuo, Shinnosuke and Suehiro, Daiki and Bise, Ryoma},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Counting Network for Learning from Majority Label}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={7025-7029},
+  keywords={Signal processing;Acoustics;Task analysis;Speech processing;Majority Label;Counting Network;MIL},
+  doi={10.1109/ICASSP48485.2024.10448425}}
 ```
 
 # Author
